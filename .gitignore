@@ -1,0 +1,8 @@
+/.env
+/.vscode
+/__pycache__
+/projects.txt
+/results.txt
+/t.json
+Pipfile
+Pipfile.lock

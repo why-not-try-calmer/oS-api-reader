@@ -1,0 +1,2152 @@
+Maintainers (devel projects contributed to, details)
+---
+* lrupp (30)
+Apache
+security
+devel:languages:nodejs
+network:utilities
+server:monitoring
+server:http
+devel:languages:pascal
+X11:lxde
+network
+server:database:postgresql
+devel:libraries:c_c++
+X11:GNUstep
+Application:Geo
+hardware
+server:irc
+devel:tools:scm:svn
+science
+X11:FOX
+Education
+devel:languages:perl
+network:telephony
+server:database
+games:tools
+openSUSE:Tools
+multimedia:apps
+Apache:Modules
+server:proxy
+server:php:applications
+server:mail
+systemsmanagement
+
+* pluskalm (24)
+devel:tools
+security:tls
+devel:languages:python:avocado
+devel:tools:compiler
+server:database:postgresql
+hardware:sdr
+benchmark
+Application:Geo
+network:cryptocurrencies
+devel:tools:scm:svn
+Publishing
+devel:tools:scm
+editors
+security:keepassxc
+server:database
+network:time
+devel:tools:building
+devel:tools:statica
+multimedia:apps
+server:proxy
+Archiving:Backup
+X11:Utilities
+Archiving
+network:chromium
+
+* dirkmueller (22)
+Base:System
+devel:tools
+Virtualization
+network
+devel:libraries:c_c++
+Virtualization:vagrant
+devel:tools:scm:svn
+devel:languages:python
+Cloud:Tools
+devel:tools:scm
+devel:openSUSE:Factory:rpmlint
+X11:RemoteDesktop
+devel:languages:python:aws
+hardware:boot
+systemsmanagement:terraform
+devel:languages:python:numeric
+X11:common:Factory
+devel:tools:building
+multimedia:apps
+filesystems
+server:mail
+Virtualization:containers
+
+* darix (21)
+Apache
+devel:languages:lua
+network:utilities
+server:monitoring
+devel:languages:erlang:Factory
+server:dns
+X11:windowmanagers
+server:http
+server:irc
+devel:tools:scm:svn
+server:php:extensions
+editors
+security:keepassxc
+devel:languages:erlang
+X11:terminals
+network:telephony
+Apache:Modules
+server:messaging
+Archiving:Backup
+network:messaging:mqtt
+server:mail
+
+* WernerFink (19)
+Base:System
+devel:tools
+security:privacy
+security
+Publishing:TeXLive
+devel:libraries:c_c++
+Publishing
+Printing
+editors
+devel:languages:misc
+M17N
+games
+graphics
+games:tools
+multimedia:apps
+shells
+X11:Utilities
+Archiving
+server:mail
+
+* dstoecker (17)
+devel:tools:scm
+graphics
+games:tools
+editors
+server:monitoring
+science
+Documentation:Tools
+server:search
+filesharing
+Application:Geo
+devel:languages:perl
+science:HPC
+X11:Utilities
+server:php:applications
+server:mail
+games
+devel:languages:D
+
+* elvigia (16)
+server:http
+devel:tools:scm
+editors
+devel:languages:php
+Apache
+multimedia:libs
+devel:libraries:c_c++
+Apache:Modules
+security
+server:php:applications
+hardware
+server:php:extensions
+network:utilities
+Archiving
+server:mail
+Virtualization
+
+* msmeissn (16)
+Base:System
+security:forensics
+graphics
+devel:tools
+security:tls
+devel:openSUSE:Factory:rpmlint
+network
+security:SELinux
+devel:libraries:c_c++
+multimedia:apps
+security
+X11:terminals
+Emulators
+network:utilities
+Archiving
+Emulators:Wine
+
+* Mailaender (15)
+games:tools
+X11:Pantheon:Apps
+X11:Unity
+devel:languages:R:released
+Mono:Factory
+Office
+X11:Solus
+devel:languages:lua
+Mono
+devel:languages:misc
+science
+X11:Pantheon
+server:mail
+games
+devel:languages:D
+
+* mseben (14)
+graphics
+X11:common:Factory
+multimedia:libs
+devel:libraries:c_c++
+multimedia:apps
+security
+devel:languages:tcl
+network:utilities
+X11:Utilities
+server:monitoring
+network:telephony
+Virtualization
+X11:windowmanagers
+Education
+
+* seife (14)
+Base:System
+network
+multimedia:libs
+devel:libraries:c_c++
+multimedia:apps
+network:telephony
+vdr
+Emulators
+X11:xfce
+hardware
+devel:languages:misc
+CrossToolchain:avr
+X11:Utilities
+server:mail
+
+* duwe (14)
+systemsmanagement:terraform
+devel:tools
+electronics
+multimedia:apps
+X11:LXQt
+Office
+security
+X11:Wayland
+Emulators
+hardware:boot
+filesystems
+hardware
+CrossToolchain:avr
+systemsmanagement
+
+* jubalh (13)
+graphics
+games:tools
+utilities
+X11:lxde
+X11:LXQt:Other
+X11:LXQt
+X11:Wayland
+systemsmanagement:wbem
+devel:languages:clojure
+devel:languages:lua
+devel:languages:nodejs
+server:monitoring
+games
+
+* tiwai (13)
+devel:tools:scm
+devel:tools
+multimedia:libs
+M17N:fonts
+devel:libraries:c_c++
+multimedia:apps
+Kernel:kdump
+multimedia:voice-assistant
+X11:xfce
+filesystems
+network:utilities
+M17N
+Publishing
+
+* jengelh (13)
+security:forensics
+games:tools
+windows:mingw:win64
+mozilla:addons
+devel:libraries:c_c++
+X11:Wayland
+X11:wxWidgets
+network:telephony
+security:netfilter
+M17N:fonts
+server:mail
+network:ldap
+windows:mingw:win32
+
+* MargueriteSu (13)
+server:http
+games:tools
+X11:Unity
+X11:Cinnamon:Factory
+Mono:Factory
+devel:languages:lua
+server:messaging
+X11:Deepin
+devel:languages:nodejs
+M17N
+M17N:fonts
+server:dns
+Education
+
+* mimi_vx (12)
+devel:languages:python:numeric
+devel:languages:python:pytest
+utilities
+devel:languages:python:django
+server:proxy
+devel:languages:python:flask
+benchmark
+devel:languages:python
+X11:Utilities
+X11:windowmanagers
+devel:languages:haskell
+devel:languages:python:avocado
+
+* pbleser (12)
+server:http
+utilities
+server:search
+filesharing
+devel:libraries:c_c++
+shells
+server:messaging
+X11:terminals
+server:irc
+server:php:extensions
+server:mail
+server:dns
+
+* lnussel (11)
+system:install:head
+devel:openSUSE:Factory:rpmlint
+games:tools
+windows:mingw:win64
+devel:openQA:tested
+systemsmanagement:cockpit
+Virtualization:WSL
+devel:kubic
+security:netfilter
+multimedia:xine
+windows:mingw:win32
+
+* psmt (10)
+network:telephony
+security
+Emulators
+filesystems
+science:HPC
+network:utilities
+science
+server:monitoring
+server:mail
+Virtualization
+
+* adamm (10)
+server:database
+devel:libraries:c_c++
+server:proxy
+systemsmanagement:cockpit
+systemsmanagement:wbem
+devel:languages:nodejs
+devel:languages:javascript
+network:dhcp
+system:packagemanager
+Java:packages
+
+* eeich (9)
+network:cluster:ohpc
+X11:XOrg
+network:cluster
+devel:libraries:c_c++
+science:machinelearning
+X11:Wayland
+science:HPC
+network:utilities
+science
+
+* sleep_walker (9)
+devel:languages:python:numeric
+devel:tools
+editors
+devel:tools:building
+X11:Enlightenment:Factory
+Office
+server:messaging
+devel:languages:misc
+devel:languages:python
+
+* kwk (8)
+systemsmanagement:cockpit
+systemsmanagement:wbem
+Emulators
+multimedia:color_management
+CrossToolchain:avr
+science
+systemsmanagement
+systemsmanagement:yomi
+
+* peternixon (8)
+server:monitoring
+devel:libraries:c_c++
+server:messaging
+devel:languages:erlang
+network:telephony
+server:php:applications
+server:mail
+devel:languages:erlang:Factory
+
+* coolo (8)
+devel:tools
+devel:openSUSE:Factory
+openSUSE:Tools
+devel:openQA:tested
+devel:languages:ruby:extensions
+devel:languages:ruby
+Publishing:TeXLive
+devel:languages:perl
+
+* mcalabkova (8)
+devel:languages:python:numeric
+devel:languages:python:pytest
+devel:languages:python:certbot
+devel:languages:python:mailman
+devel:languages:python:Factory
+M17N:l10n.opensuse.org
+devel:languages:python
+devel:languages:python:jupyter
+
+* mcepl (8)
+devel:languages:python:numeric
+network:pidgin
+devel:languages:python:pytest
+devel:languages:python:django
+devel:languages:python:mailman
+devel:languages:lua
+devel:languages:python:Factory
+devel:languages:python
+
+* favogt (8)
+system:install:head
+Virtualization:containers:images:openSUSE-Tumbleweed
+devel:kubic:containers
+Virtualization:WSL
+devel:kubic
+Virtualization:Appliances:Images:openSUSE-Tumbleweed
+Virtualization:containers:images
+devel:kubic:images
+
+* poeml (7)
+security:Stunnel
+devel:libraries:c_c++
+shells
+server:php:extensions
+network:utilities
+server:php:applications
+server:mail
+
+* TheBlackCat (7)
+devel:languages:python:numeric
+science:machinelearning
+devel:languages:R:released
+science:HPC
+devel:languages:python
+science
+devel:languages:python:jupyter
+
+* alarrosa (7)
+devel:languages:python:numeric
+server:search
+devel:languages:rust
+KDE:Frameworks5
+KDE:Extra
+devel:languages:python
+multimedia:voice-assistant
+
+* cgiboudeaux (7)
+KDE:Qt:5.15
+KDE:Frameworks5
+KDE:Extra
+KDE:Qt6
+Office
+KDE:Qt5
+KDE:Applications
+
+* anicka (7)
+network
+Apache
+Apache:Modules
+devel:languages:misc
+Publishing
+server:mail
+systemsmanagement
+
+* dimstar (7)
+system:install:head
+devel:openSUSE:Factory:Apps
+games:tools
+multimedia:libs
+GNOME:Factory
+Virtualization:VMware
+GNOME:Apps
+
+* wrosenauer (7)
+devel:tools:scm
+security:chipcard
+mozilla:addons
+mozilla:Factory
+server:irc
+server:monitoring
+server:mail
+
+* fstrba (7)
+windows:mingw:win64
+network:messaging:amqp
+M17N
+Java:Factory
+windows:mingw:win32
+Java:packages
+LibreOffice:Factory
+
+* flavio_castelli (7)
+Virtualization:containers:images:openSUSE-Tumbleweed
+systemsmanagement:terraform
+devel:languages:go
+devel:kubic
+Virtualization:containers:images
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* Vogtinator (6)
+KDE:Qt:5.15
+KDE:Frameworks5
+KDE:Extra
+KDE:Qt6
+KDE:Qt5
+KDE:Applications
+
+* luca_b (6)
+KDE:Qt:5.15
+KDE:Frameworks5
+KDE:Extra
+KDE:Qt6
+KDE:Qt5
+KDE:Applications
+
+* wolfi323 (6)
+KDE:Qt:5.15
+KDE:Frameworks5
+KDE:Extra
+KDE:Qt6
+KDE:Qt5
+KDE:Applications
+
+* hreinecke (6)
+editors
+network
+network:fcoe
+devel:libraries:c_c++
+filesystems
+hardware
+
+* rmax (6)
+network
+server:database:postgresql
+electronics
+devel:languages:tcl
+CrossToolchain:avr
+network:telephony
+
+* sbrabec (6)
+electronics
+X11:wxWidgets
+M17N:l10n.opensuse.org
+network:cryptocurrencies
+multimedia:color_management
+CrossToolchain:avr
+
+* computersalat (6)
+devel:languages:perl
+network:telephony
+server:php:applications
+server:mail
+systemsmanagement
+Education
+
+* mnhauke (6)
+hardware:sdr
+security:OpenVAS:STABLE
+network:messaging:mqtt
+server:monitoring
+network:vpn:wireguard
+Education
+
+* rjschwei (6)
+devel:languages:python:numeric
+devel:languages:python:azure
+devel:languages:python:aws
+devel:languages:perl
+devel:languages:python
+Cloud:Tools
+
+* cyphar (6)
+devel:languages:go
+devel:kubic
+Virtualization:containers:images
+network:messaging:matrix
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* kukuk (6)
+devel:kubic:ignition
+devel:kubic:containers
+devel:kubic
+devel:CaaSP
+Linux-PAM
+network:NIS
+
+* dcassany (6)
+devel:kubic:containers
+Virtualization:Appliances:Builder
+Virtualization:Appliances:Images:openSUSE-Tumbleweed
+Virtualization:containers:images
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* ghaskins (6)
+devel:tools:lttng
+devel:LLDC
+devel:languages:erlang
+network:messaging:amqp
+devel:languages:nodejs
+devel:languages:erlang:Factory
+
+* bitshuffler (5)
+utilities
+network:synchronization:files
+security
+X11:Utilities
+server:monitoring
+
+* adrianSuSE (5)
+graphics
+openSUSE:Tools
+Application:Geo
+network:cryptocurrencies
+science
+
+* varkoly (5)
+network
+security
+YaST:Head
+network:dhcp
+server:mail
+
+* jmcdough (5)
+network
+network:synchronization:files
+network:samba:STABLE
+devel:libraries:c_c++
+server:irc
+
+* rguenther (5)
+devel:tools
+devel:tools:compiler
+devel:tools:lttng
+devel:libraries:c_c++
+devel:gcc
+
+* schubi2 (5)
+server:http
+devel:libraries:libyui
+devel:tools
+YaST:Head
+server:monitoring
+
+* glaubitz (5)
+devel:languages:python:azure
+Emulators
+devel:languages:misc
+devel:languages:python
+Cloud:Tools
+
+* aplanas (5)
+devel:languages:python:numeric
+devel:openSUSE:Factory:rpmlint
+openSUSE:Tools
+devel:languages:python
+systemsmanagement:yomi
+
+* posophe (5)
+devel:languages:python:numeric
+X11:Unity
+Mono:Factory
+X11:MATE:Factory
+devel:languages:python
+
+* containersteam (5)
+devel:kubic:containers
+devel:kubic
+Virtualization:containers:images
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* mjura (5)
+devel:kubic:containers
+devel:kubic
+Virtualization:containers:images
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* XRevan86 (5)
+network:pidgin
+X11:Unity
+devel:tools:lttng
+X11:MATE:Factory
+X11:Compiz
+
+* smithfarm (5)
+filesystems:ceph
+Virtualization:vagrant
+filesystems
+Application:Dochazka
+devel:languages:perl
+
+* mtomaschewski (4)
+network:vpn
+network
+devel:libraries:c_c++
+network:utilities
+
+* dspinella (4)
+server:database
+Apache:Modules
+Apache:Shibboleth
+Apache
+
+* mslacken (4)
+science
+science:HPC
+science:machinelearning
+network:cluster
+
+* matz2 (4)
+devel:tools
+devel:libraries:c_c++
+devel:tools:compiler
+devel:gcc
+
+* Guillaume_G (4)
+hardware:boot
+devel:languages:pascal
+science:machinelearning
+network:chromium
+
+* michals (4)
+Kernel:stable
+hardware:nvdimm
+Kernel:HEAD
+hardware
+
+* seilerphilipp (4)
+hardware
+X11:windowmanagers
+Office
+server:messaging
+
+* trenn (4)
+Base:System
+Kernel:kdump
+hardware
+systemsmanagement
+
+* ndas (4)
+network:dhcp
+network:vpn
+science:HPC
+network
+
+* dmolkentin (4)
+Base:System
+security:idm
+security:dehydrated
+Printing
+
+* deadpoint (4)
+Archiving
+server:monitoring
+devel:languages:R:released
+server:database:postgresql
+
+* rsalevsky (4)
+Cloud:Seafile
+Publishing
+Documentation
+systemsmanagement
+
+* thomas-schraitle (4)
+Publishing
+Documentation
+M17N:fonts
+Documentation:Tools
+
+* hillwood (4)
+M17N
+M17N:fonts
+X11:MATE:Factory
+X11:Deepin
+
+* m_meister (4)
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers:images
+devel:kubic
+Virtualization:containers
+
+* sax2 (4)
+security:netfilter
+Virtualization:Appliances:Builder
+Cloud:Tools
+X11:RemoteDesktop
+
+* dakechi (3)
+server:monitoring
+network:ha-clustering:Factory
+network:ldap
+
+* firstyear (3)
+network:idm
+network:ldap
+devel:languages:rust
+
+* _miska_ (3)
+mobile:synchronization:FACTORY
+server:database
+X11:windowmanagers
+
+* kstreitova (3)
+server:database
+Apache:Modules
+Apache
+
+* Dmitry_R (3)
+science
+hardware:sdr
+electronics
+
+* StefanBruens (3)
+science
+electronics
+graphics
+
+* jjolly (3)
+multimedia:libs
+multimedia:apps
+security
+
+* jsegitz (3)
+security:SELinux
+devel:openSUSE:Factory:rpmlint
+security
+
+* bigironman (3)
+Emulators
+Linux-PAM
+multimedia:apps
+
+* plater (3)
+multimedia:libs
+multimedia:xine
+multimedia:apps
+
+* vitezslav_cizek (3)
+security:tls
+science:machinelearning
+security:SELinux
+
+* mkudlvasr (3)
+network:time
+X11:common:Factory
+security:chipcard
+
+* sreeves1 (3)
+multimedia:libs
+GNOME:Factory
+Virtualization:WSL
+
+* dimstar_suse (3)
+devel:CaaSP
+devel:openSUSE:Factory:Apps
+openSUSE:Factory
+
+* olh (3)
+devel:languages:ocaml
+systemsmanagement
+Virtualization
+
+* cyberiad (3)
+devel:languages:python:numeric
+devel:languages:misc
+Office
+
+* mge1512 (3)
+server:monitoring
+devel:languages:misc
+security:SELinux
+
+* mlatimer (3)
+filesystems:ceph
+Virtualization
+Virtualization:VMware
+
+* tbechtold (3)
+devel:languages:python:numeric
+network:messaging:kafka
+devel:languages:python
+
+* RBrownSUSE (3)
+devel:kubic:containers
+devel:kubic:images
+devel:kubic
+
+* adkorte (3)
+server:php:applications
+devel:languages:php
+server:php:extensions
+
+* supergeeko (3)
+server:php:applications
+network:pidgin
+server:search
+
+* dmulder (3)
+Mono
+network:samba:STABLE
+YaST:Head
+
+* awissu (3)
+filesharing
+X11:Pantheon
+X11:Pantheon:Apps
+
+* pgajdos (3)
+devel:languages:php
+Apache:Modules
+Apache
+
+* jeff_mahoney (3)
+filesystems
+Kernel:HEAD
+security:apparmor
+
+* M0ses (3)
+devel:kanku
+openSUSE:Tools
+system:packagemanager
+
+* snwint (3)
+system:install:head
+Emulators
+YaST:Head
+
+* Pharaoh_Atem (3)
+Virtualization:Appliances:Builder
+security:idm
+system:packagemanager:dnf
+
+* dsterba (3)
+devel:tools:statica
+benchmark
+filesystems
+
+* IGonzalezSosa (3)
+system:install:head
+devel:libraries:libyui
+YaST:Head
+
+* jreidinger (3)
+system:install:head
+devel:libraries:libyui
+YaST:Head
+
+* jsrain (3)
+system:install:head
+zypp:plugins
+YaST:Head
+
+* locilka (3)
+system:install:head
+devel:libraries:libyui
+YaST:Head
+
+* jnweiger (3)
+windows:mingw:win64
+windows:mingw:win32
+CrossToolchain:avr
+
+* janblunck (3)
+network:messaging:amqp
+devel:tools:lttng
+devel:LLDC
+
+* dmaiocchi (3)
+devel:languages:clojure
+server:monitoring
+network:ha-clustering:Factory
+
+* xarbulu (3)
+network:ha-clustering:Factory
+devel:sap:cluster-agents
+network:ha-clustering:sap-deployments:devel
+
+* gmbr3 (3)
+X11:Solus
+network:chromium
+devel:languages:lua
+
+* saschpe (3)
+devel:languages:erlang:Factory
+devel:languages:erlang
+server:messaging
+
+* mschnitzer (3)
+devel:languages:ruby
+Documentation:Tools
+devel:languages:ruby:extensions
+
+* gsantomaggio_suse (3)
+network:messaging:amqp
+devel:languages:erlang:Factory
+devel:languages:erlang
+
+* dancermak (3)
+Virtualization:Appliances:Images:openSUSE-Tumbleweed
+Virtualization:vagrant
+devel:languages:ruby:extensions
+
+* susnux (2)
+games:tools
+games
+
+* Alexander_Naumov (2)
+network:utilities
+security
+
+* sdrahn (2)
+security:Stunnel
+network:utilities
+
+* jreuter (2)
+X11:Utilities
+devel:libraries:c_c++
+
+* anag (2)
+science
+network:cluster
+
+* cjunghans (2)
+science
+Education
+
+* gregfreemyer (2)
+security:forensics
+security
+
+* jbohac (2)
+network
+security
+
+* vpereirabr (2)
+network:cryptocurrencies
+security
+
+* jsmeix (2)
+graphics
+Printing
+
+* toganm (2)
+graphics
+X11:windowmanagers
+
+* a_faerber (2)
+hardware:boot
+hardware
+
+* keichwa (2)
+Documentation
+X11:common:Factory
+
+* simotek (2)
+X11:common:Factory
+X11:Enlightenment:Factory
+
+* EGDFree (2)
+network:pidgin
+network
+
+* azouhr (2)
+Publishing
+network
+
+* rhafer (2)
+network
+Virtualization:containers
+
+* os-gnome-maintainers (2)
+GNOME:Factory
+GNOME:Apps
+
+* gnome-review-bot (2)
+GNOME:Factory
+GNOME:Apps
+
+* bekun (2)
+X11:Compiz
+multimedia:color_management
+
+* bruno_friedmann (2)
+Application:Geo
+server:database:postgresql
+
+* bmanojlovic (2)
+server:monitoring:zabbix
+systemsmanagement
+
+* jfehlig (2)
+systemsmanagement
+Virtualization
+
+* fsundermeyer (2)
+Publishing
+Documentation
+
+* jones_tony (2)
+devel:tools
+devel:tools:lttng
+
+* m4r3k (2)
+electronics
+devel:languages:haskell
+
+* subik (2)
+X11:LXQt
+devel:languages:misc
+
+* algraf (2)
+hardware:boot
+Virtualization
+
+* ftake (2)
+M17N
+M17N:fonts
+
+* jfkw (2)
+Virtualization:WSL
+devel:languages:go
+
+* wstephenson (2)
+Documentation
+Virtualization:WSL
+
+* marostegui (2)
+server:monitoring
+X11:windowmanagers
+
+* Marcus_H (2)
+server:php:applications
+server:mail
+
+* kssingvo (2)
+security:privacy
+server:mail
+
+* sgrunert (2)
+devel:kubic
+Virtualization:containers
+
+* pmonrealgonzalez (2)
+security:tls
+Java:packages
+
+* aeneas_jaissle (2)
+server:php:applications
+server:monitoring
+
+* weberho (2)
+server:php:applications
+server:php:extensions
+
+* AndnoVember (2)
+X11:Pantheon
+X11:Pantheon:Apps
+
+* jdsn (2)
+Cloud:Tools
+YaST:Head
+
+* behrisch (2)
+X11:FOX
+Education
+
+* worldcitizen (2)
+server:monitoring
+Education
+
+* decriptor (2)
+Mono
+Mono:Factory
+
+* goldwynr (2)
+filesystems
+security:apparmor
+
+* Ansus (2)
+KDE:KDE3
+Office
+
+* dorf (2)
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* kiall (2)
+devel:CaaSP:Head:ControllerNode
+Virtualization:containers
+
+* containersbuild (2)
+Virtualization:containers:images
+devel:CaaSP:Head:ControllerNode
+
+* tserong (2)
+filesystems
+filesystems:ceph
+
+* ancorgs (2)
+devel:libraries:libyui
+YaST:Head
+
+* aschnell (2)
+YaST:Head
+filesystems:snapper
+
+* joseivanlopez (2)
+devel:libraries:libyui
+YaST:Head
+
+* lslezak (2)
+devel:libraries:libyui
+YaST:Head
+
+* mvidner (2)
+devel:libraries:libyui
+YaST:Head
+
+* shundhammer (2)
+devel:libraries:libyui
+YaST:Head
+
+* yast-team (2)
+devel:libraries:libyui
+YaST:Head
+
+* marxin (2)
+devel:openSUSE:Factory:rpmlint
+devel:gcc
+
+* jblunck (2)
+network:messaging:amqp
+devel:tools:lttng
+
+* belphegor_belbel (2)
+KDE:KDE3
+Documentation
+
+* jsikes (2)
+security:tls
+security:chipcard
+
+* asaurin (2)
+Virtualization:containers:images
+Virtualization:containers
+
+* mssola (2)
+Virtualization:containers:images
+Virtualization:containers
+
+* mlandres (2)
+editors
+zypp:Head
+
+* STorresi (2)
+server:monitoring
+network:ha-clustering:sap-deployments:devel
+
+* mcaj (2)
+server:monitoring
+network:vpn
+
+* shapbot (2)
+server:monitoring
+network:ha-clustering:sap-deployments:devel
+
+* KGronlund (2)
+devel:languages:clojure
+devel:languages:rust
+
+* dbahi (2)
+devel:LLDC
+network:time
+
+* jirislaby (2)
+devel:tools:statica
+Kernel:stable
+
+* sfalken (2)
+X11:lxde
+X11:LXQt
+
+* StevenK (2)
+devel:languages:python:Factory
+devel:languages:python
+
+* ptesarik (2)
+Kernel:HEAD
+Kernel:kdump
+
+* NMoreyChaisemartin (2)
+hardware:nvdimm
+science:HPC
+
+* gladiac (2)
+devel:languages:python:mailman
+graphics:darktable
+
+* MasterPatricko (2)
+mobile:synchronization:FACTORY
+filesharing
+
+* matwey (2)
+devel:languages:erlang:Factory
+devel:languages:erlang
+
+* simonoff (2)
+devel:languages:erlang:Factory
+devel:languages:erlang
+
+* zhangxiaofei (2)
+network:pidgin
+X11:RemoteDesktop
+
+* gmoro (2)
+Virtualization:Appliances:Images:openSUSE-Tumbleweed
+devel:CaaSP
+
+* okurz (2)
+devel:openQA:tested
+network:messaging:matrix
+
+* polslinux (2)
+Application:Astrophotography
+Cloud:Seafile
+
+* alanmcgovern (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* fridrich_strba (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* hiberis (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* mkbosmans (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* danimo (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* kalikiana (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* pansenmann (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* rhabacker (2)
+windows:mingw:win32
+windows:mingw:win64
+
+* mcalmer (2)
+Linux-PAM
+systemsmanagement:saltstack
+
+* jayvdb (2)
+devel:languages:python:flask
+devel:languages:python:django
+
+* DarkSS (1)
+games
+
+* rkwasny (1)
+network:utilities
+
+* ckowalczyk (1)
+network:ldap
+
+* stroeder (1)
+network:ldap
+
+* dalgaaf (1)
+X11:Utilities
+
+* hmacht (1)
+X11:Utilities
+
+* badshah400 (1)
+science
+
+* openfoam (1)
+science
+
+* ahodgkinson (1)
+security
+
+* dbuss (1)
+security
+
+* ganglia (1)
+devel:libraries:c_c++
+
+* msuman (1)
+devel:libraries:c_c++
+
+* wgottwalt (1)
+devel:libraries:c_c++
+
+* bruclik (1)
+graphics
+
+* kfreitag (1)
+graphics
+
+* t-paul (1)
+graphics
+
+* tsaupe (1)
+hardware
+
+* Fisiu (1)
+network
+
+* joachimwerner (1)
+network
+
+* mvarlese (1)
+network
+
+* a_jaeger (1)
+Base:System
+
+* oertel (1)
+Base:System
+
+* luc14n0 (1)
+GNOME:Apps
+
+* coolo-factory (1)
+openSUSE:Factory
+
+* factory-auto (1)
+openSUSE:Factory
+
+* licensedigger (1)
+openSUSE:Factory
+
+* Andreas_Schwab (1)
+devel:tools:compiler
+
+* postadal (1)
+multimedia:color_management
+
+* tzotsos (1)
+Application:Geo
+
+* michalsrb (1)
+X11:XOrg
+
+* sndirsch (1)
+X11:XOrg
+
+* factory-repo-checker (1)
+GNOME:Factory
+
+* toabctl (1)
+systemsmanagement
+
+* neilbrown (1)
+devel:tools
+
+* mwilck (1)
+Printing
+
+* nemysis (1)
+games:tools
+
+* netsroth (1)
+LibreOffice:Factory
+
+* timar (1)
+LibreOffice:Factory
+
+* KDEMaintainers (1)
+KDE:Extra
+
+* christiantrippe (1)
+KDE:Extra
+
+* Heinervdm (1)
+electronics
+
+* wkazubski (1)
+electronics
+
+* dsteuer (1)
+devel:languages:R:released
+
+* davidnichols (1)
+devel:languages:misc
+
+* jbrielmaier (1)
+devel:languages:misc
+
+* aginies (1)
+Virtualization
+
+* bfrogers (1)
+Virtualization
+
+* charlesa (1)
+Virtualization
+
+* claudiofontana (1)
+Virtualization
+
+* dfaggioli (1)
+Virtualization
+
+* jziviani (1)
+Virtualization
+
+* lin_ma (1)
+Virtualization
+
+* lyan (1)
+Virtualization
+
+* mhocko (1)
+Virtualization
+
+* vulyanov (1)
+Virtualization
+
+* psimons (1)
+devel:languages:haskell
+
+* sbahling (1)
+devel:languages:haskell
+
+* spanne (1)
+devel:languages:haskell
+
+* ptrommler (1)
+devel:languages:haskell
+
+* swyear (1)
+M17N
+
+* pavlix (1)
+devel:languages:python:numeric
+
+* lkocman (1)
+Virtualization:WSL
+
+* lnussel_factory (1)
+Virtualization:WSL
+
+* barravince112 (1)
+X11:windowmanagers
+
+* lmich (1)
+X11:windowmanagers
+
+* gerberb (1)
+server:mail
+
+* malcolmlewis (1)
+utilities
+
+* avicenzi (1)
+devel:kubic
+
+* admehmood (1)
+Java:packages
+
+* j_renner (1)
+Java:packages
+
+* mateialbu (1)
+Java:packages
+
+* arclyde (1)
+server:php:applications
+
+* asemen (1)
+server:php:applications
+
+* ralflangb1 (1)
+server:php:applications
+
+* ematsumiya (1)
+network:samba:STABLE
+
+* npower (1)
+network:samba:STABLE
+
+* pauloac (1)
+network:samba:STABLE
+
+* scabrero (1)
+network:samba:STABLE
+
+* fos (1)
+devel:kubic:ignition
+
+* aosthof (1)
+Cloud:Tools
+
+* bear454 (1)
+Cloud:Tools
+
+* ikapelyukhin (1)
+Cloud:Tools
+
+* seanmarlow (1)
+Cloud:Tools
+
+* svollath (1)
+Cloud:Tools
+
+* thardeck (1)
+Cloud:Tools
+
+* Thruth (1)
+Education
+
+* dbalentine (1)
+Education
+
+* fabio_s (1)
+Education
+
+* fschuett (1)
+Education
+
+* fsgaston (1)
+Education
+
+* gallochri (1)
+Education
+
+* glunardi (1)
+Education
+
+* grayswandir12 (1)
+Education
+
+* kkirill (1)
+Education
+
+* lumnis (1)
+Education
+
+* maw (1)
+Education
+
+* mpmiranda (1)
+Education
+
+* repabuild (1)
+Education
+
+* vlj (1)
+Education
+
+* kamailio (1)
+network:telephony
+
+* mjerris (1)
+network:telephony
+
+* kkeil (1)
+network:telephony
+
+* pvanveen (1)
+network:telephony
+
+* Warhammer40k (1)
+Mono:Factory
+
+* k0da (1)
+Mono:Factory
+
+* cboltz (1)
+security:apparmor
+
+* mbologna (1)
+Office
+
+* mbrugger (1)
+hardware:boot
+
+* gerritbeine (1)
+server:irc
+
+* m4z (1)
+server:irc
+
+* stefanok (1)
+X11:MATE:Factory
+
+* bergmannf (1)
+devel:CaaSP:Head:ControllerNode
+
+* ereslibre (1)
+devel:CaaSP:Head:ControllerNode
+
+* hellcp (1)
+security:idm
+
+* jankara (1)
+filesystems
+
+* yast2-maintainers (1)
+YaST:Head
+
+* dgdavid (1)
+YaST:Head
+
+* guohouzuo (1)
+YaST:Head
+
+* mfilka (1)
+YaST:Head
+
+* sh-sh-sh (1)
+YaST:Head
+
+* teclator (1)
+YaST:Head
+
+* GreatEmerald (1)
+devel:languages:D
+
+* volkerkuhlmann (1)
+CrossToolchain:avr
+
+* benjamin_poirier (1)
+devel:tools:lttng
+
+* boombatower (1)
+network:cryptocurrencies
+
+* marec2000 (1)
+network:cryptocurrencies
+
+* mauriziogalli (1)
+X11:xfce
+
+* tux93 (1)
+X11:xfce
+
+* vinzv (1)
+X11:xfce
+
+* stfnknorr (1)
+Documentation
+
+* tbazant (1)
+Documentation
+
+* wanghaisu (1)
+network:ha-clustering:Factory
+
+* yan_gao (1)
+network:ha-clustering:Factory
+
+* AndreasStieger (1)
+security:privacy
+
+* chbrauner (1)
+Virtualization:containers
+
+* mvedovati (1)
+Virtualization:containers
+
+* vzepedamas (1)
+Virtualization:containers
+
+* mstrigl (1)
+openSUSE:Tools
+
+* brunoleon (1)
+devel:kubic:containers
+
+* pgeorgiadis (1)
+devel:kubic:containers
+
+* insilmaril (1)
+editors
+
+* nderkach (1)
+server:messaging
+
+* selamtux (1)
+server:messaging
+
+* tuyan (1)
+server:messaging
+
+* aldemir_a (1)
+server:monitoring
+
+* bnicholes (1)
+server:monitoring
+
+* ciriarte (1)
+server:monitoring
+
+* jcavalheiro (1)
+server:monitoring
+
+* netmask (1)
+server:monitoring
+
+* rhomann (1)
+server:monitoring
+
+* ammler (1)
+server:http
+
+* jgotteswinter (1)
+server:http
+
+* kalabiyau (1)
+server:http
+
+* stbuehler (1)
+server:http
+
+* weigon (1)
+server:http
+
+* ecsos (1)
+Documentation:Tools
+
+* andisugandi (1)
+devel:languages:ocaml
+
+* sethubhatti (1)
+X11:Pantheon
+
+* jberkman (1)
+security:chipcard
+
+* pzb (1)
+security:chipcard
+
+* federico-mena (1)
+devel:languages:rust
+
+* luke_nukem (1)
+devel:languages:rust
+
+* LarsMB (1)
+filesystems:ceph
+
+* dmdiss (1)
+filesystems:ceph
+
+* holgisms (1)
+filesystems:ceph
+
+* andtecheu (1)
+devel:languages:go
+
+* burnus (1)
+network:cluster
+
+* scorot (1)
+network:cluster
+
+* arcress (1)
+systemsmanagement:wbem
+
+* andythe_great (1)
+X11:Cinnamon:Factory
+
+* jluce2 (1)
+X11:Cinnamon:Factory
+
+* ukbeast89 (1)
+X11:Cinnamon:Factory
+
+* aduffeck (1)
+server:search
+
+* dmitry_serpokryl (1)
+X11:lxde
+
+* tinita (1)
+devel:languages:perl
+
+* dmair (1)
+Kernel:kdump
+
+* lzwang (1)
+Kernel:kdump
+
+* jmoellers (1)
+science:HPC
+
+* LebedevRI (1)
+graphics:darktable
+
+* cvoegl (1)
+system:packagemanager:dnf
+
+* drcux (1)
+server:dns
+
+* vatsers (1)
+X11:Enlightenment:Factory
+
+* avindra (1)
+devel:languages:javascript
+
+* nkrinner (1)
+devel:languages:erlang
+
+* NicoK (1)
+devel:languages:erlang:Factory
+
+* Beineri (1)
+KDE:KDE3
+
+* samelian (1)
+KDE:KDE3
+
+* oc2pus (1)
+devel:languages:pascal
+
+* yfjiang (1)
+X11:RemoteDesktop
+
+* Chuse (1)
+Application:ERP:GNUHealth:Factory
+
+* DocB (1)
+Application:ERP:GNUHealth:Factory
+
+* fredkiefer (1)
+X11:GNUstep
+
+* onthewings (1)
+devel:languages:haxe
+
+* jrecord (1)
+isv:SUSE:SupportTools:Factory
+
+* mbarringer (1)
+SUSE:SUSEStudio
+
+* rwill (1)
+hardware:nvdimm
+
+* morbidrsa (1)
+hardware:nvdimm
+
+* jgrassler (1)
+network:messaging:kafka
+
+* mrostecki (1)
+network:messaging:kafka
+
+* witekbedyk (1)
+network:messaging:kafka
+
+* lkocman-factory (1)
+network:idm
+
+* Garuma (1)
+Mono
+
+* aaronbockover (1)
+Mono
+
+* ajorg (1)
+Mono
+
+* alan_mcgovern (1)
+Mono
+
+* migueldeicaza (1)
+Mono
+
+* slluis (1)
+Mono
+
+* wberrier (1)
+Mono
+
+* xamarin-release-manager (1)
+Mono
+
+* droidmonkey (1)
+security:keepassxc
+
+* kernelbugs (1)
+Kernel:HEAD
+
+* mkubecek (1)
+Kernel:HEAD
+
+* flyos (1)
+Cloud:Seafile
+
+* zbenjamin (1)
+zypp:Head
+
+* zypp-team (1)
+zypp:Head
+
+* bosim (1)
+mobile:synchronization:FACTORY
+
+* cstender (1)
+mobile:synchronization:FACTORY
+
+* dgollub (1)
+mobile:synchronization:FACTORY
+
+* mlschroe (1)
+devel:languages:perl6
+
+* niner9 (1)
+devel:languages:perl6
+
+* SannisDev (1)
+devel:languages:nodejs
+
+* qantas94heavy (1)
+devel:languages:nodejs
+
+* kallan (1)
+Virtualization:VMware
+
+* dheidler (1)
+devel:openQA:tested
+
+* mlin7442 (1)
+devel:openQA:tested
+
+* ckornacker (1)
+Linux-PAM
+
+* bnavigator (1)
+KDE:Qt:PyQt
+
+* jmatejek (1)
+X11:wxWidgets
+
+* aspiers (1)
+network:messaging:amqp
+
+* hubert-plociniczak (1)
+network:messaging:amqp
+
+* iartarisi (1)
+network:messaging:amqp
+
+* mgerstner (1)
+devel:openSUSE:Factory:rpmlint
+
+* wfrisch (1)
+devel:openSUSE:Factory:rpmlint
+
+* PSuarezHernandez (1)
+systemsmanagement:saltstack
+
+* agraul (1)
+systemsmanagement:saltstack
+
+* bmaryniuk (1)
+systemsmanagement:saltstack
+
+* brejoc (1)
+systemsmanagement:saltstack
+
+* juliogonzalezgil (1)
+systemsmanagement:saltstack
+
+* mdinca (1)
+systemsmanagement:saltstack
+
+* crewjones (1)
+devel:LLDC
+
+* sdietrich (1)
+devel:LLDC
+
+* tsariounov (1)
+devel:LLDC
+
+* asvetter (1)
+security:Stunnel
+
+* dmacvicar (1)
+systemsmanagement:terraform
+
+* jordimassaguerpla (1)
+systemsmanagement:terraform
+
+* ojkastl_buildservice (1)
+Virtualization:vagrant
+
+* mcihar (1)
+M17N:l10n.opensuse.org
+
+* bmwiedemann (1)
+network:vpn:wireguard
+
+* nadvornik (1)
+zypp:plugins
