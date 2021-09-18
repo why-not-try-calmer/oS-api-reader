@@ -127,11 +127,11 @@ async def main():
     config = Config(
         project_path="source/openSUSE:Factory",
         source_path="source",
-        out_factory_maintainers="output/maintainers.txt",
-        out_factory_maintainers_with_counts="output/maintainers_with_counts.txt",
-        out_factory_packages="output/factory_packages.txt",
-        out_factory_devel_projects="output/factory_devel_projects.txt",
-        out_factory_devel_projects_maintainers_packages="output/devel_project.txt"
+        out_factory_maintainers="output/_maintainers.txt",
+        out_factory_maintainers_with_counts="output/_maintainers_with_counts.txt",
+        out_factory_packages="output/_factory_packages.txt",
+        out_factory_devel_projects="output/_factory_devel_projects.txt",
+        out_factory_devel_projects_maintainers_packages="output/_devel_project.txt"
     )
     async with aiohttp.ClientSession(
         auth=aiohttp.BasicAuth(
