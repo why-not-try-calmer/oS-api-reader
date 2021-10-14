@@ -122,6 +122,12 @@ async def run_the_show(config: Config, session: aiohttp.ClientSession) -> None:
     await write_devels_projects_maintainers(config, maintainers, projects)
     await write_maintainers_stats(config, maintainers)
 
+@timef
+async def get_packages(config: Config, session: aiohttp.ClientSession) -> None:
+    getting_tw_packages = run_request(session, "source/openSUSE:Factory")
+    getting_leap_packages = run_request(session, "source/openSUSE:Leap:15.3")
+    tw_packages, leap_packages = await asyncio.gather(getting_tw_packages, getting_leap_packages)
+    print(f"Obtained all packages: TW ({len(tw_packages)}), Leap 15.3 ({len(leap_packages)})")
 
 async def main():
     config = Config(
@@ -139,7 +145,8 @@ async def main():
             password=env["PASSWORD"]
         )
     ) as session:
-        await run_the_show(config, session)
+        # await run_the_show(config, session)
+        await get_packages(config, session)
 
 if __name__ == "__main__":
     from dotenv import dotenv_values
