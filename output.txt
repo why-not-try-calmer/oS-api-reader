@@ -1,17 +1,32 @@
-monitoring-plugins-zypper, devel:ARM:Factory:Contrib:ILP32
-nagios-plugins-zypper, openSUSE:Maintenance:2062
-patterns-leo-base-zypper, devel:LEO
-patterns-microos-base-zypper, devel:kubic
-test-package-zypper, systemsmanagement:saltstack:products
-zypper, zypp:Head
-zypper-aptitude, zypp:Head
-zypper-changelog-plugin, devel:ARM:Factory:Contrib:ILP32
-zypper-debuginfo, openSUSE:Factory
-zypper-debugsource, openSUSE:Factory
-zypper-docker, Virtualization:containers
-zypper-docker-debuginfo, Virtualization:containers
-zypper-lifecycle-plugin, devel:ARM:Factory:Contrib:ILP32
-zypper-log, zypp:Head
-zypper-migration-plugin, devel:ARM:Factory:Contrib:ILP32
-zypper-needs-restarting, zypp:Head
-zypper-search-packages-plugin, zypp:plugins
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Factory
+openSUSE_Factory+GNOME_Factory
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Tumbleweed
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM
+openSUSE_Factory_ARM

@@ -33,26 +33,44 @@ class Query:
 
 
 @dataclass
-class Entry:
+class PackageEntry:
+    arch: str
+    baseproject: str
+    filepath: str
     name: str
+    package: str
     project: str
+    release: str
+    repository: str
+    version: str
 
     def format_entry(self) -> str:
-        return (f"{self.name}, {self.project}")
+        return self.repository
+        #return "\n".join(vars(self).values())
 
 
 class Entries:
     @staticmethod
-    def build_entries(entries: List[Dict[Any, Any]]) -> Generator[Entry, None, None]:
+    def build_entries(entries: List[Dict[Any, Any]]) -> Generator[PackageEntry, None, None]:
         names = []
         for e in entries:
-            name, project = e['name'], e['project']
-            if not "home:" in project and not name in names:
+            name, project, repository = e['name'], e['project'], e['repository']
+            if not "home:" in project and not name in names and any(sub in repository for sub in ["Tumbleweed", "openSUSE"]):
                 names.append(name)
-                yield Entry(name, project)
+                yield PackageEntry(
+                    name=name,
+                    project=project,
+                    repository=repository,
+                    arch=e['arch'],
+                    baseproject=e['baseproject'],
+                    filepath=e['filepath'],
+                    package=e['package'],
+                    release=e['release'],
+                    version=e['version']
+                )
 
     @staticmethod
-    def sort(entries: Generator[Entry, None, None]) -> List[Entry]:
+    def sort(entries: Generator[PackageEntry, None, None]) -> List[PackageEntry]:
         return sorted(entries, key=lambda e: e.name)
 
 
@@ -77,7 +95,7 @@ async def main() -> None:
         "https://api.opensuse.org",
         "/search/published/binary/id",
         "openSUSE:Factory",
-        "zypper"
+        "opera"
     )
     res = await request(q.build())
     entries = Entries.sort(Entries.build_entries(res))
