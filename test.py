@@ -45,28 +45,27 @@ class PackageEntry:
     version: str
 
     def format_entry(self) -> str:
-        return self.repository
-        #return "\n".join(vars(self).values())
+        return "\n".join(vars(self).values())
 
 
 class Entries:
     @staticmethod
-    def build_entries(entries: List[Dict[Any, Any]]) -> Generator[PackageEntry, None, None]:
+    def build_entries(items: List[Dict[Any, Any]]) -> Generator[PackageEntry, None, None]:
         names = []
-        for e in entries:
-            name, project, repository = e['name'], e['project'], e['repository']
+        for i in items:
+            name, project, repository = i['name'], i['project'], i['repository']
             if not "home:" in project and not name in names and any(sub in repository for sub in ["Tumbleweed", "openSUSE"]):
                 names.append(name)
                 yield PackageEntry(
                     name=name,
                     project=project,
                     repository=repository,
-                    arch=e['arch'],
-                    baseproject=e['baseproject'],
-                    filepath=e['filepath'],
-                    package=e['package'],
-                    release=e['release'],
-                    version=e['version']
+                    arch=i['arch'],
+                    baseproject=i['baseproject'],
+                    filepath=i['filepath'],
+                    package=i['package'],
+                    release=i['release'],
+                    version=i['version']
                 )
 
     @staticmethod
@@ -95,12 +94,13 @@ async def main() -> None:
         "https://api.opensuse.org",
         "/search/published/binary/id",
         "openSUSE:Factory",
-        "opera"
+        "chess"
     )
     res = await request(q.build())
     entries = Entries.sort(Entries.build_entries(res))
     formatted = [e.format_entry() for e in entries]
-    await write_to_disk(formatted)
+    print("\n".join(formatted))
+    # await write_to_disk(formatted)
 
 
 asyncio.run(main())
