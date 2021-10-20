@@ -104,7 +104,7 @@ class Entries:
         return sorted(entries, key=attrgetter(attr))
 
     @staticmethod
-    def format(es: Generator[PackageEntry, None, None]) -> List[str]:
+    def render(es: Generator[PackageEntry, None, None]) -> List[str]:
         return ["\n".join(vars(e).values()) for e in es]
 
 
@@ -134,7 +134,7 @@ async def main() -> None:
     req = q.build()
     items = await get_package_items(req)
     entries = Entries.build(items)
-    print("\n".join(Entries.format(entries)))
+    print("\n".join(Entries.render(entries)))
     # await write_to_disk(formatted)
 
 
