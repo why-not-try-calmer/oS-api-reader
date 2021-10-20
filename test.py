@@ -1,4 +1,5 @@
-from functools import reduce
+from operator import attrgetter
+import re
 from typing import Any, Dict, Generator, List
 from aiohttp.helpers import BasicAuth
 from requests import Request
@@ -44,22 +45,19 @@ class PackageEntry:
     repository: str
     version: str
 
-    def format_entry(self) -> str:
-        return "\n".join(vars(self).values())
-
 
 class Entries:
     @staticmethod
-    def build_entries(items: List[Dict[Any, Any]]) -> Generator[PackageEntry, None, None]:
+    def build(items: List[Dict[str, Any]]) -> Generator[PackageEntry, None, None]:
         names = []
         for i in items:
-            name, project, repository = i['name'], i['project'], i['repository']
-            if not "home:" in project and not name in names and any(sub in repository for sub in ["Tumbleweed", "openSUSE"]):
+            name = i['name']
+            if not name in names and Entries.is_valid_package_entry(i) and Entries.is_relevant(i):
                 names.append(name)
                 yield PackageEntry(
                     name=name,
-                    project=project,
-                    repository=repository,
+                    project=i['project'],
+                    repository=i['repository'],
                     arch=i['arch'],
                     baseproject=i['baseproject'],
                     filepath=i['filepath'],
@@ -69,18 +67,55 @@ class Entries:
                 )
 
     @staticmethod
-    def sort(entries: Generator[PackageEntry, None, None]) -> List[PackageEntry]:
-        return sorted(entries, key=lambda e: e.name)
+    def is_valid_package_entry(item: Dict[str, Any]) -> bool:
+        the_keys = PackageEntry.__dataclass_fields__.keys()
+        
+        if missing := [k for k in the_keys if k not in item.keys()]:
+            raise Exception(f"Missed key for item: {missing}")
+
+        if missed := [k for k in item.keys() if k not in the_keys]:
+            print(f"Missed key for item: {missed}")
+
+        return True
+
+    @staticmethod
+    def is_relevant(item: Dict[str, Any]) -> bool:
+
+        if "home:" in item['project']:
+            return False
+
+        if any(sub in item['repository'].lower() for sub in ["tumbleweed", "opensuse"]):
+            return False
+
+        if ":branches:" in item['project']:
+            return False
+
+        regex = r"-(debuginfo|debugsource|buildsymbols|devel|lang|l10n|trans|doc|docs)(-.+)?$"
+        if re.match(regex, item['name']):
+            return False
+
+        if item['arch'] == "src":
+            return False
+
+        return True
+
+    @staticmethod
+    def sort_on(attr: str, entries: Generator[PackageEntry, None, None]) -> List[PackageEntry]:
+        return sorted(entries, key=attrgetter(attr))
+
+    @staticmethod
+    def format(es: Generator[PackageEntry, None, None]) -> List[str]:
+        return ["\n".join(vars(e).values()) for e in es]
 
 
-async def request(preq: PreparedRequest) -> List[Dict]:
+async def get_package_items(preq: PreparedRequest) -> List[Dict[str, Any]]:
     async with aiohttp.ClientSession(auth=BasicAuth("Nycticorax", "Trinity779")) as s:
         r = await s.get(preq.url)
         if not r.status == 200:
             raise Exception(
                 f"Server responded with HTTP error code: {r.status}")
         dom = lxml.etree.fromstring(await r.text(), parser=None)
-        return [{k: v for k, v in b.items()} for b in dom.xpath('/collection/binary')]
+        return [{k: v for k, v in b.items()} for b in dom.xpath("/collection/binary")]
 
 
 async def write_to_disk(contents: List[str]) -> None:
@@ -93,13 +128,13 @@ async def main() -> None:
     q = Query(
         "https://api.opensuse.org",
         "/search/published/binary/id",
-        "openSUSE:Factory",
+        "openSUSE:Factory",  # openSUSE:Leap:15.3
         "chess"
     )
-    res = await request(q.build())
-    entries = Entries.sort(Entries.build_entries(res))
-    formatted = [e.format_entry() for e in entries]
-    print("\n".join(formatted))
+    req = q.build()
+    items = await get_package_items(req)
+    entries = Entries.build(items)
+    print("\n".join(Entries.format(entries)))
     # await write_to_disk(formatted)
 
 
